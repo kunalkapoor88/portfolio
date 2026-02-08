@@ -21,7 +21,6 @@ function About() {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             About
         </h3>
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory md:mt-32 mt-12 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 top-24 md:top-4 xl:top-2 absolute'>
             {Object.keys(pageInfo).length !== 0 &&
             <motion.img
                initial={{
@@ -53,7 +52,7 @@ function About() {
                      ))}
                </div>
            </div>
-         </div>
+   
     </motion.div>
   )
 }
